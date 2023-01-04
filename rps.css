@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: monospace;
+    color:rgb(184, 46, 69);
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;  
+    background-color: #0a0a0a; 
+    background-size: 100%;
+    
+   }
+
+#gameresults #results p {
+   
+    text-align: center;
+    position: absolute;
+    font-family: 'Ink Free';
+    color:rgb(110, 40, 190);
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#gameresults #winner p {
+    
+    
+    position: absolute;
+    color: rgb(18, 199, 175);
+    font-size: 50px;
+
+}
+#choice {
+    
+    font-size: 30px;
+    color: green;
+    padding: 10px 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-color: crimson;
+    border-width: 3px;
+       
+}
+
+#gameImages {
+
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+    /*    position: absolute;
+    left: 28%;
+    top: 45%;
+    padding-top: 30px;
+    width: 1200px;
+    height: 400px;
+      */  
+}
+
+html p {
+    text-align: center;
+}
+
+
+     
+
+
+
