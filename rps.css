@@ -12,13 +12,28 @@ body {
    }
 
 #gameresults #results {
-   
+    width: 1200px;
+    height: 350px;
+    top: 63%;
+    left: 38%;
+    margin-top: -200px;
+    margin-left: -250px;
+    position: absolute;
     font-family: 'Ink Free';
     color:rgb(110, 40, 190);
     font-size: 50px;
+    padding-bottom: 20px;
 }
 #gameresults #winner {
     
+
+    width: 1200px;
+    height: 400px;
+    top: 88%;
+    left: 38%;
+    margin-top: -200px;
+    margin-left: -250px;
+    position: absolute;
     color: rgb(18, 199, 175);
     font-size: 50px;
 
@@ -38,13 +53,14 @@ body {
 
 #gameImages {
 
-    position: fixed;
-    left: 38%;
-    top: 55%;
+    position: absolute;
+    left: 28%;
+    top: 45%;
+    padding-top: 30px;
     border: 5px solid rgb(145, 65, 65);
     box-sizing: border-box;
-    width: 600px;
-    height: 295px;
+    width: 1200px;
+    height: 400px;
         
 }
 
