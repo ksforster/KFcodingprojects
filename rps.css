@@ -6,18 +6,21 @@ body {
     font-weight: bold;  
     background-color: #0a0a0a; 
     background-size: 100%;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
    }
 
 #gameresults #results {
    
     font-family: 'Ink Free';
     color:rgb(110, 40, 190);
-    font-size: 66px;
+    font-size: 50px;
 }
 #gameresults #winner {
     
     color: rgb(18, 199, 175);
-    font-size: 76px;
+    font-size: 50px;
 
 }
 #choice {
