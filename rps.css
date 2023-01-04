@@ -1,3 +1,5 @@
+
+
 body {
     font-family: monospace;
     color:crimson;
@@ -6,9 +8,8 @@ body {
     font-weight: bold;  
     background-color: #0a0a0a; 
     background-size: 100%;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
+    
+    
    }
 
 #gameresults #results {
@@ -40,7 +41,7 @@ body {
 
     position: absolute;
     left: 800px;
-    top: 800px;
+    top: 700px;
     border: 5px solid rgb(145, 65, 65);
     box-sizing: border-box;
     width: 800px;
