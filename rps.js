@@ -141,15 +141,22 @@ function playGame() {
 
 /* The next two lines writes the choices and the results of the winner to html <p> tag */
    
-      document.getElementById("results").innerHTML = `User selected ${event.target.value} and computer selected ${computerChoice}.`;
-              
-      document.getElementById("winner").innerHTML = `${determineWinner(userChoice, computerChoice)} `;
+      var results1 = `User selected ${event.target.value} and computer selected ${computerChoice}.`;
+
+      document.getElementById("results").innerHTML = results1;
+      
+      var winner1 = `${determineWinner(userChoice, computerChoice)} `;
+      document.getElementById("winner").innerHTML = winner1;
     
     reset();
      });   
 }
-
- /* resets dropdown menu for next play */
+/*
+      document.getElementById("results").innerHTML = `User selected ${event.target.value} and computer selected ${computerChoice}.`;
+              
+      document.getElementById("winner").innerHTML = `${determineWinner(userChoice, computerChoice)} `;
+*/
+      /* resets dropdown menu for next play */
 
  function reset (){
     var dropDown = document.getElementById("choice");
